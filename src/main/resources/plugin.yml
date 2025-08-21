@@ -1,0 +1,22 @@
+
+name: SurvieHome
+main: com.nowheberg.surviehome.SurvieHomePlugin
+version: 1.0.1
+api-version: '1.21'
+author: Coco
+
+commands:
+  homes:
+    description: Ouvre le menu des homes
+    usage: /homes
+
+permissions:
+  surviehome.1:
+    description: Autorise 1 home (défaut)
+    default: true
+  surviehome.5:
+    description: Autorise 5 homes
+    default: false
+  surviehome.8:
+    description: Autorise 8 homes
+    default: false
